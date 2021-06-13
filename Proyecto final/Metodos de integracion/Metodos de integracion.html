@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodos de integracion</title> <link rel="stylesheet" href="../Metodos de integracion/metodos.css">
+    <header>
+        
+        <nav>
+            <a href="../Menu/menu.html" target="_blank" >Inicio</a>
+            <a href="../Funciones/Funciones.html" target="_blank" >Tipos de Funciones</a>
+            <a href="../Modelos/Modelos.html" target="_blank" >Modelos matematicos</a>
+            <a href="../Derivada/Derivada.html" target="_blank">Derivada</a>
+            <a href="../Integrales/Integrales.html" target="_blank" >integrales</a>
+            <a href="../Metodos de integracion/Metodos de integracion.html" target="_blank" >Metodos de integracion</a>
+        </nav>
+        
+        <section class="textos-header" >
+            <h1>Metodos de integracion </h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+    </header> 
+
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Temas por ver </h2>
+        </section>
+    </main>
+
+    <ul >
+        <div class="subtemas">
+         <li><h4>Sustitucion e integracion por partes</h4></li>
+         <li><h4>Ejemplos</h4></li>
+        </div>
+    </ul>
+
+</head>
+
+<body>
+    <section>
+        <div class="Sustitucion" >    <!--Introduccion-->
+            <h2>Sustitucion e integracion por partes</h2>
+            <p>
+                <strong>Introduccion </strong> <br>
+                Las operaciones de integración de funciones pueden llegar a ser muy complicadas. Para facilitarlas se
+                han ideado diversos procedimientos generales, de los cuales los más extendidos son los llamados métodos
+                de sustitución o cambio de variable y de integración por partes.
+
+                <h3>Metodo de sustitución</h3>
+                Uno de los dos procedimientos más habituales para la resolución de integrales complicadas es el llamado
+                método de sustitución o de cambio de variable. Esta técnica consiste en introducir una nueva variable t para
+                sustituir a una expresión apropiada del integrando, de manera que la expresión resultante sea más fácil de integrar.
+                Por ejemplo, la integral: <br><br>
+                <img src="../Metodos de integracion/images/sustitucion.gif" alt=""> <br> <br>
+                se simplifica notablemente si se aplica el cambio t = sen x. Entonces, se cumpliría que dt = cos x dx, con lo que la
+                integral quedaría reducida a: <br> <br> 
+                <img src="../Metodos de integracion/images/t4.gif" alt=""> <br> <br> 
+                Finalmente se desharía el cambio de variable, con lo que el resultado final sería: <br> <br>
+
+                <img src="../Metodos de integracion/images/sen 4.gif" alt=""> <br> <br> <hr>
+
+                <h3>Integración por partes</h3>
+                El método de la integración por partes se emplea para simplificar el cálculo de la integral de un producto de funciones
+                que puedan interpretarse como del tipo u (x) × v¿ (x). La fórmula de la integración por partes es la siguiente: <br> <br>
+                <img src="../Metodos de integracion/images/por partes.gif" alt=""> <br> <br>
+                Este método resulta indicado particularmente cuando v × du es más fácil de integrar que u × dv. <br><br><hr>
+
+                <h3>Calculo de areas</h3>
+                La integral de una función continua entre los dos extremos de un intervalo [a, b] y tal que f (x) ³ 0 " x Î [a, b]
+                coincide con el área comprendida entre dicha función, el eje horizontal y las dos rectas que delimitan los intervalos,
+                de ecuaciones x = a y x = b. <br>
+                Este principio puede servir también para calcular las áreas comprendidas entre curvas, por simples operaciones aritméticas de adición y sustracción. <br><br>
+                <img src="../Metodos de integracion/images/area R.gif" alt=""> <br><br>
+                La integral de f (x) en el intervalo [a, b] coincide con el valor del área R. <br>
+                Por convenio, dicha área se dice que es positiva cuando f (x) ³ 0 en el intervalo, y negativa si f £ 0 en [a, b]. Cuando la función tiene signo variable,
+                las partes de la misma situadas por encima del eje horizontal añadirán valor positivo al área global, y las que discurran por debajo sumarán valores negativos
+                a la misma. <br> <br>
+                <img src="../Metodos de integracion/images/Areas por curvas.gif" alt=""> <br><br>
+                Áreas formadas por dos curvas. Por consideraciones geométricas, el área de la intersección se calcula restando a la integral de f (x) en el intervalo [-1, 1]
+                el valor de la integral de g (x) para ese mismo intervalo <hr>
+
+                <h3>Integracion Numerica</h3>
+                En ocasiones, el cálculo de una integral definida en un intervalo resulta tan complicado que se hace casi irresoluble. En estos casos, se puede aplicar un método
+                de integración numérica aproximada, consistente en dividir el intervalo de definición en un conjunto de subintervalos iguales, de manera que se trazan sus imágenes
+                sobre la curva y se unen todos puntos imagen mediante segmentos rectilíneos. <br>
+                Siendo f (x) la función de origen, y [a, b] el intervalo de integración, que se puede dividir en n subintervalos iguales de amplitud h tales que a = x0 &#8249;  x1 &#8249;
+                x2 &#8249;  &#8249; &#8249; xn = b, la región limitada por la curva de f (x) puede obtenerse aproximadamente a partir de la siguiente expresión: <br><br>
+                <img src="../Metodos de integracion/images/Integracion numerica.gif" alt=""> <br><br>
+                Esta ley se llama regla de los trapecios. Evidentemente, cuanto mayor es el número de intervalos escogido, más cerca estará el valor obtenido del área real situada bajo la curva. <br><br>
+                <img src="../Metodos de integracion/images/regla de los trapecios.gif" alt=""> <br><br>
+                Aproximación del área de una función por integración numérica. <br> <br>
+            </p>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="Ejemplos" >                <!--Ejemplos-->
+            <h3>Ejemplos</h3>
+            <p>
+                <strong>Integracion por partes :</strong> <br> <br>
+                <img src="../Metodos de integracion/images/Ejemplo 1.png" alt=""> <br><br>
+                <img src="../Metodos de integracion/images/Respuesta 1.PNG" alt=""> <br> <br> <hr>
+
+                <strong>Metodo de sustitución</strong> <br> <br>
+                <img src="../Metodos de integracion/images/Ejemplo 2.gif" alt=""> <br> <br>
+                <img src="../Metodos de integracion/images/Respuesta 2.PNG" alt=""> <br> <br> <hr>
+
+            </p>
+        </div>
+    </section>
+</body>
+</html>

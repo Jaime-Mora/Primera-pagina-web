@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos matematicos</title> <link rel="stylesheet" href="modelos.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <a href="../Menu/menu.html" target="_blank" >Inicio</a>
+            <a href="../Funciones/Funciones.html" target="_blank" >Tipos de Funciones</a>
+            <a href="../Modelos/Modelos.html" target="_blank" >Modelos matematicos</a>
+            <a href="../Derivada/Derivada.html" target="_blank">Derivada</a>
+            <a href="../Integrales/Integrales.html" target="_blank" >integrales</a>
+            <a href="../Metodos de integracion/Metodos de integracion.html" target="_blank" >Metodos de integracion</a>
+        </nav>
+        
+        <section class="textos-header" >
+            <h1>Modelos matematicos</h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+    </header> 
+
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Temas por ver </h2>
+        </section>
+    </main>
+
+    <ul >
+        <div class="subtemas">
+         <li><h4>Procedimiento de obtencion</h4></li>
+         <li><h4>Ejemplos</h4></li>
+        </div>
+    </ul>
+</body>
+    <section>
+        <div class="Modelos">
+            <h3>introduccion</h3>
+            <p>
+                Una clasificación de los modelos matemáticos podría basarse en una serie de características dicotómicas: <br> <br>
+                <strong>Empiricos o teoricos</strong> <br> 
+                El carácter empírico o teórico constituye la característica fundamental de un modelo. Un modelo teórico se basa en
+                las leyes físicas que rigen los procesos, un modelo empírico se basa en relaciones estadísticamente significativas
+                entre variables que en rigor sólo son válidas para el contexto espacio-temporal en el que se calibraron   <br> <hr> <br>
+
+                <strong>Estocasticos o determinados</strong> <br>
+                Los primeros incluyen generadores de procesos aleatorios dentro del modelo que modifican ligeramente algunas de las variables.
+                De esta manera, para un mismo conjunto de datos de entrada, las salidas no serían siempre las mismas. Por el contrario,
+                un modelo determinista es aquel en el que dado un conjunto de parámetros y variables de entrada va a producir siempre el mismo
+                conjunto de variables de salida. <br> <hr> <br>
+
+                <strong>Estaticos o dinamicos</strong> <br>
+                Se refiere a la forma en que se trata el tiempo. Los modelos estáticos dan un resultado agregado para todo el período de tiempo
+                considerado. Los modelos dinámicos devuelven las series temporales de las variables consideradas a lo largo del período de estudio. <br> <hr> <br>
+
+                <strong>Agregados o distribuidos</strong> <br>
+                En el primer caso toda el área de estudio se considera de forma conjunta, por ejemplo una cuenca hidrográfica. Se tiene un único
+                valor para todos los parámetros del modelo. El modelo predice unas salidas para las entradas aportadas sin informar de lo que ocurre
+                dentro del sistema. En un modelo distribuido, tendremos el área de estudio dividida en porciones cada una de ellas con su propio conjunto
+                de parámetros y sus propias variables de estado. Cada porción recibe un flujo de materia y energía de algunas de sus vecinas que a su vez
+                reemite a otras. Si se opta por un modelo distribuido es necesario establecer un modelo de datos espaciales que permita asignar valores de
+                los parámetros y las variables de estado a los diferentes puntos del área de estudio.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="Ejemplo">
+            <h3>Ejemplos</h3>
+            <p>
+                <strong>Ejemplo A </strong> <br>
+                Diriges un negocio de cortar césped y cobras $15 por prado. Escribe una función que describa la ganancia como una función del número de prados
+                segados, si cada uno tiene un costo de $2 en vencida y otros gastos. <br> <br>
+
+                <Strong>Solucion:</Strong> <br>
+                Si expresas el número de prados cegados como n , y las ganancias como la función P(n) , entonces: <br> <br>
+                <img src="../Modelos/images/Captura 1`.PNG" alt=""> <br> 
+                Un Modelo Cuadrático usa una función cuadrática (de forma ax2+bx+c ) para modelar una situación. <br> <br> <hr>
+
+                <strong>Ejemplo B</strong> <br>
+                Estás en el techo de un edificio de 20 pies de alto. Tiras una pelota al aire con una velocidad vertical inicial de 40 pies por segundo, de manera
+                que caiga en piso y no en el techo. ¿Cuán alto llegará la pelota? ¿En qué punto alcanzará su altura máxima? ¿Cuándo llegará al piso la pelota? <br> <br>
+
+                <strong>Solucion:</strong> <br>
+                Esta situación puede ser modelada por una función cuadrática de forma  h(t) = −16t2 + v0t + h0 donde  h(t) representa la altura sobre el piso y: <br>
+
+                <ul>
+                    <li>la constante -16 (en unidades de ft/sec2 ) se obtiene de la fuerza de gravedad hacia abajo;</li> 
+                    <li>t representa el tiempo (en segundos) desde que la pelota fue lanzada;</li>
+                    <li>v0 representa la velocidad inicial (es pies/seg) de la pelota</li>
+                    <li>h0 representa la altura inicial (en pies) de la pelota.</li>
+                </ul>
+                <br>
+                Podemos escribir la función como  <img src="../Modelos/images/Captura 2`.PNG" alt=""> <br>
+                Para responder la primera y segunda pregunta, usa tu calculadora para examinar el gráfico de la función, configura la pantalla para una mejor visión
+                y luego presiona GRAPH para ver la parábola resultante. <br> <br>
+
+                Si usas la función MAX en el menú CALC, verás que las coordenadas del vértice son (1,25, 45). Esto significa que después de 1,25 segundos de ser lanzada,
+                la pelota alcanza su altura máxima de 45 pies. <br>
+
+                Para responder la tercera pregunta, necesitamos determinar en qué punto la altura de la pelota es 0. Gráficamente, estamos buscando el intercepto en x de la
+                parábola. Si queremos determinar el valor exacto, podemos usar la función ZERO de la calculadora o solo resolver la ecuación cuadrática para los dos interceptos.
+                Con cualquiera de los dos métodos, el resultado debería ser que el intercepto en x es aproximadamente 2,93. Esto quiere decir que la pelota llega al piso en menos de 3 segundos. <br>
+            </p>
+        </div>
+    </section>
+</html>

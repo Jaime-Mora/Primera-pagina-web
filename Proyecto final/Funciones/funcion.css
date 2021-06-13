@@ -1,0 +1,137 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* Header */ 
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #eb73c9; 
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.507), hsla(317, 45%, 52%, 0.63)), url(../Funciones/images/fondo-matematicas_23-2148146270.jpg); 
+     /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.507), hsla(317, 45%, 52%, 0.63)), url(../Funciones/images/fondo-matematicas_23-2148146270.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a {
+    color: azure;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: azure;
+}
+
+.subtemas {
+    list-style: none;
+}
+
+div.subtemas{
+    border-style: outset;
+    margin:0;
+    width: 150px;
+}
+
+.funcion-lineal{                     /*Funcione Lineal*/
+    font-family: cursive;
+    text-align: justify;
+    text-align: center;
+    text-decoration: none;
+}
+
+div.funcion-lineal{
+    border-style: outset;
+    margin: 50px ;
+    width: 50%;
+    text-align: center;
+}
+
+ul.funcion-lineal{
+    list-style: none;
+}
+
+
+.polinomial{                      /*Funcion Polinomial*/
+    font-family: cursive;
+    text-align: center;
+}
+
+div.polinomial{
+    border-style: outset;
+    margin: 50px;
+    width: 50%;
+}                                                   
+ 
+div.trigonometrica{             /*Funcion Trigonometrica*/
+    border-style: outset;
+    margin: 50px;
+    padding: 25px;
+    width: 50%;
+    text-align: center;
+
+}
+
+
+div.Exponencial{        /*Funciones Exponenciales*/
+    border-style: outset;
+    margin: 50px;
+    padding: 25px;
+    width: 50%;
+    text-align: center;
+
+}
+
+div.Racionales{        
+ border-style: outset;
+ margin: 50px;
+ padding: 25px;
+ width: 50%;
+ text-align: center;
+
+}
+
+div.Logaritmicas{
+    border-style: outset;
+    margin: 50px;
+    width: 50%;
+    padding: 25px;
+    text-align: center;
+}
